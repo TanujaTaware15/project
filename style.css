@@ -58,4 +58,97 @@ body{
 
 }   
 
+.container1{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3.7em;
+    padding: 20px 0px;
+}
+.container1 .title{
+    position: absolute;
+    left: 170;
+    top: -7px;
+}
+.container1 .title h1{
+    font-size: 2.3em;
+    font-weight: 700;
+    color: blueviolet ;
+    margin-bottom: 20px;
+}
+.container1 .skeleton{
+    width: 280px;   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 8px;
+    background: #fff;;
+    box-shadow: 0px 2px 40px rgba(0,0,0,0.2);
+}
+.container1 .skeleton img{
+    width: 100%;
+    padding: 50px 50px;
+    height: 250px;
+    border-radius: 5px;
+    background:rgba(166, 120, 209, 0.66);
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+}
+.container1 .skeleton .info{
+    padding: 10px 25px;
+}
+.container1 .skeleton .info h3{
+    color: blueviolet;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.skill-set{
+    width: 100%;
+    padding: 20px 5%;
+    height: 750px;
+}
+.skill-set .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    padding: 10px;
+}
+.skill-set .title h2{
+    font-size: 2.1em;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-set .container{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.skill-set .container .skill{
+    width: 350px;
+    height:270px ;
+    border: 1px solid rgba(137, 43, 226, 0.521);
+    box-shadow: 0px 2px 2px blueviolet;
+}
+.skill-set .container .skill img{
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: 12% 12%;
+}
+
+
 
