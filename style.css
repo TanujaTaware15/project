@@ -56,7 +56,187 @@ body{
     font-size: 1.5em;
     font-weight: 450;
 
-}   
+}  
+.banner_section .carousel-item{
+    padding: 3rem 0;
+    height: 90vh;
+}
+.banner_section .carousel-caption{
+    top: 10%;
+    bottom: 0;
+    left: 1%;
+    right: 0;
+    
+    width: 40%;
+    margin-bottom: 400px;
+    height: 500px;
+    
+}
+.banner_section .carousel-caption .banner-content {
+    margin-bottom: 900px;
+    text-align: center;
+    display: block;
+    
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right: 300px;
+    width: 70%;
+
+}
+.banner_section .carousel-caption .banner-content button{
+    background: #002c3e;
+    color: white;
+    cursor: pointer;
+    padding: 8px 20px;
+    
+    border: 2px solid brown;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px black;
+    
+    font-size: larger;
+}
+.banner_section .carousel-caption .banner-content button:hover{
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.banner_section .carousel-caption .banner-content h1{
+    text-align: start;
+    font-size: 3.5rem;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #002c3e;
+      line-height: 70px;
+}
+
+.banner_section .carousel-caption .banner-content h3{
+    
+    color:blueviolet;
+}
+.banner_section .carousel-caption .banner-content p {
+    max-width: 40rem;
+    
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+
+
+.activities{
+    font-weight: bold;
+    color: #002c3e;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.container1{
+    width: 100%;
+    height: 400px;
+    background: rgb(179, 133, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.card,
+.skeleton{
+    width: 290px;
+    height: 320px;
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 8px;
+    background: whitesmoke;
+    color:  #002c3e;
+    box-shadow: 0px 2px 40px rgba(0,0,0,2);
+    font-size: 14px;
+    font-weight: 200;
+
+}
+.card .image{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    
+    background-position: center;
+    background-size: contain;
+    height: 150px;
+    border-radius: 8px;
+}
+.skeleton .image{
+    width: 100%;
+    background: linear-gradient(90deg,#ddd 25%,#eee 50%,#ddd 75%);
+    height: 150px;
+    border-radius: 8px;
+    
+
+}
+#img1{
+    background: url("p1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#img2{
+    background: url("p6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#img3{
+    background: url("p3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#img4{
+    background: url("p4.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container1 .card .text{
+    width: 100%;
+    font-size: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    
+}
+
+
+.skeleton .text,
+.skeleton .text-short{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  
+
+}
+.skeleton .text-short{
+    width: 100%;
+    height: auto;
+}
+.skeleton .text,
+.skeleton .image,
+.skeleton .text-short{
+    background-size: 200% 100%;
+    animation: skeleton-anim linear infinite 1.5s;
+}
+@keyframes skeleton-anim{
+    0%{
+        background-position: 200% 0;
+    }
+    100%{
+        background-position: -200% 0;
+    }
+}
 
 .container1{
     position: relative;
